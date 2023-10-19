@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopIt</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="index.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">ONYX STORE</a>
+            <i class='bx bx-shopping-bag active' id="cart-icon" data-quantity="0"></i>
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <div class="cart-content"></div>
+                    <div class="total">
+                        <div class="total-title">Total</div>
+                        <div class="total-price">#0</div>  
+                    </div>
+                    <button type="button" class="btn-buy">Buy Now</button>
+                    <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+    <section class="shop container">
+        <h2 class="shop-title">Products</h2>
+        <div class="shop-content">
+            <!-- box 1 -->
+            <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhF-nIrEmqHc-vm9rj-K7wmWGkz40C2_2knwoy8iT1QEK8rspSBwymShjwzfm4HFBPmzXBbKQgN85Z4OG3v6hn13LuaGMgQ4sR_4LAqqkTH8__yOockZnmrH6BdttCX_6vvk5Gb8KfHRtNsPrX23g5UTc-e8_PqS1RN3O1801q3fAqJrA3EZsriFDpxAfkS/s320/product1.jpeg" alt="" 
+                class="product-img">
+                <h2 class="product-title">Addidas Hoodie</h2>
+                <span class="price">#5000</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- box2 -->
+            <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPK8Wj391IhuyAtWmaeHtGDQMyy5fYdabiu6eE6UCW4xQv2Z8RDVTiZNYo1EwchanqjwUZAkH1W2CGAqsqaGgu0cwLffcIEjzVuRAGasaayo4RRC54jLg7wOg4TouEZkX7PBcKiVyP3TGD6QeLOtdwa_nwGoklGguEkNDzZsC5PZvhgLeOIKarvBM25MY5/s320/product2.jpeg"
+                class="product-img">
+                <h2 class="product-title">Adidas BackBag</h2>
+                <span class="price">#5000</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- ////box3 -->
+            <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgS_FsyqjTDnyVF-TStg6nBlCT6eSlDbuZAXXox6SMKVlTkvbClMoFccG89UGkrnNdAKbvB7fYrKwWLK5nehZRClX4jiHUxQD7YpRcvx0d47oER0NKjIxHwl8anh6hhR3FvYmEVkiLOjtU0ryto2Huy4YeOhS995ckd4YvBBY6ucvc2xHHWUYegWOskxF-t/s320/product3.jpeg" alt="" 
+                class="product-img">
+                <h2 class="product-title">Adidas FaceCap</h2>
+                <span class="price">#5000</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+        <!-- //box4 -->
+        <div class="product-box">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0g9OrnRrqntNlLjz1GMsgkNDgh_8DNtgjJlOSpFFZQYIiINBRqu7Lv14yM32GmX0O7a5Rr0wcQ-s1mrhs6V1NrpXpH7Q1tKe2QnQeREYkN8XExKJ-XmLPQxpELb_8NLKnRr_svSRT6bHB4YE8oEmJQBaahfEcqxLsl1BsukaxK1Y1a6yznUJ7W3Cjc9Q3/s320/product4.jpeg" alt="" 
+            class="product-img">
+            <h2 class="product-title">Adidas TeeShirt</h2>
+            <span class="price">#5000</span>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+        <!-- ///box5 -->
+        <div class="product-box">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoLf-ELTlm4waPgQPl6IiEyznBT71jtIVglSWZaj8x5u2K5Wh3Lvplat1bP1QaFgYd62z70Bp0GGwV7bbaHVP2OhSuIAxu0p4OqpSnyZcruAZobYSGHnOL3msKlr10FRNB2oBHwa1rmMczUFNSr8P5DyOZyK5DqX1aF3ShYrzVNPi3uDYK6leZ-Tcglz5G/s320/product5.jpeg" alt="" 
+            class="product-img">
+            <h2 class="product-title">Adidas Hoodie</h2>
+            <span class="price">#5000</span>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+        <!-- //box6 -->
+        <div class="product-box">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMxlxknqsFogCe0KSVX1YAjwKzTrvx0AgXo_RRB_i9BB2NjIElhSNfLo2pTaSzbRD0w3US7HCFMTw0eSCOMpiPtHkgGAxLqXM04ZktK33-TQREsy5hoXr-jW5eWefidCUmZBH_ZeBzEz2XXWPyddzvjf9SQJjQ36a1YHcmoEttZyGk9ikS8jBNtFW_7GJX/s320/product6.jpeg" alt="" 
+            class="product-img">
+            <h2 class="product-title">Adidas Airpod</h2>
+            <span class="price">#15000</span>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+        <!-- //box7 -->
+        <div class="product-box">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhuOunapMeWrUB43TXq-P6On_CLGxKJ9BIEZoHzoCWNZijHdeIr0to1eb42NKzTW7z_2rdvO0F___9GimsgilMLWkaSyK0hpC_pN5ia1qrEbpEDrGAhZ7Gy0cDSHwJ8RHP5zy6TWD1qEY3ZyBZavY9oKnR-hcqGi2-KfFZ1Dv_SliMl5N7RrszUvboLmD7/s320/product7.jpeg" alt="" 
+            class="product-img">
+            <h2 class="product-title">Adidas Bottle</h2>
+            <span class="price">#5000</span>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+        <!-- ///box8 -->
+        <div class="product-box">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_2PVbGVqZ9cD3DRU3OioN1-uf-B4RjsD5g2JOaQTySln8Q6tZzDRkSJNqVBngO2BzuLNSDTna3xbxTHH9XCGFdcEBS0rHNik1jEx7d3ehVI1SZ_xFw3sK2dYrqGYouAoPMtqDkFqajoaO180sztAenQcxXwy3Y4437Sb6UsfpbOrYSyG_iDtZnRsn61NX/s320/product8.jpeg" alt="" 
+            class="product-img">
+            <h2 class="product-title">Adidas Gym Boot</h2>
+            <span class="price">#5000</span>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
